@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+
+Body{
+  
+    height: auto;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: white;
+    padding: 50px;
+    width: 1920px;
+    max-width: 100%;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-element span {
+    margin-bottom: 10px;
+  
+}
+
+
+.radio-button label{
+    margin-bottom: 2px;
+    cursor: pointer;
+    margin: 0%;
+    padding: 5px;
+   
+    
+}
+form button{
+    width: 100%;
+    padding: 5px;
+    color:white;
+    background: rgba(64, 173, 224, 0.966);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+span{
+    font-weight: bold;
+}
+.table-bordered{
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
