@@ -1,5 +1,16 @@
-
-
+/*{
+  /*  background: #000;*/
+nav{
+    background-color: royalblue;
+    color: white;
+}
+nav.ul{
+    color: white;
+}
+}
+nav.ul:hover{
+   color: gold;
+}
 
 
 
@@ -25,8 +36,8 @@
 
 main{
     max-width: 720px;
-    padding-top: 7px;
-    
+    padding: 7px, 0;
+   /* background-color:;*/
  
 }
    
@@ -67,6 +78,7 @@ main{
 .total-cases .value{
     font-size: 1rem;
     font-weight: bold;
+    color: black;
     
 }
 .recovered .value{
@@ -85,8 +97,10 @@ main{
 /* -------- CHART -------- */
 .chart{
     width: 100%;
-    height: 48vh;
-    min-height: 500px;
+    height: 62vh;
+    max-height: 62vh;
+ 
+    
 
 
     padding: auto;
@@ -159,17 +173,23 @@ main{
 }
 /* SCROLL BAR */
 .country-list::-webkit-scrollbar {
+   
     width: 10px;
+
   }
   
   /* Track */
   .country-list::-webkit-scrollbar-track {
-    background: #111;
+    background: rgb(177, 75, 75);
+   
   }
   
   /* Handle */
   .country-list::-webkit-scrollbar-thumb {
     background: #F1F1F1;
+    padding: 3rem, 0rem;
+    border-radius: 10px
+
   }
   
   /* Handle on hover */
