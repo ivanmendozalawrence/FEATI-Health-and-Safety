@@ -1,16 +1,3 @@
-/*{
-  /*  background: #000;*/
-nav{
-    background-color: royalblue;
-    color: white;
-}
-nav.ul{
-    color: white;
-}
-}
-nav.ul:hover{
-   color: gold;
-}
 
 
 
@@ -205,3 +192,11 @@ main{
         align-items: flex-start;
     }
 }
+#newsResults{
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
+
