@@ -1,6 +1,16 @@
 
+*{
+    font-family: 'Playfair Display', serif;
+    
+}
+nav{
+    background: linear-gradient(90deg, rgba(91,180,196,1) 10%, rgba(248,228,115,1) 100%);
 
 
+}
+.navbar-nav a{
+    color: black !important;
+  }
 .hide{
     display: none;
 }
@@ -15,7 +25,9 @@
         opacity: 1;
     }
 }
-
+body{
+    background: linear-gradient(90deg, rgb(183, 236, 245) 10%, rgb(252, 240, 177) 100%);
+}
 /* ---------------------------------------------- */
 /*                      MAIN                      */
 /* ---------------------------------------------- */
@@ -192,11 +204,19 @@ main{
         align-items: flex-start;
     }
 }
-#newsResults{
-    align-items: center;
-    justify-content: center;
+#newsresults{
+    max-height: 30%;
 }
+.btn{
+    margin-left: 47%;
+}
+/*#newsResults{*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
-
+/*.card-columns {*/
+/*    column-count: 4;*/
+/*}*/
     
 
