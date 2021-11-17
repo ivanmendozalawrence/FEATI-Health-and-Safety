@@ -43,7 +43,7 @@ $(document).ready(function () {
             <img src="${imageurl}" class="responsive-img" alt="${latestNews[i].title}">
           </div>
           <div class="card-content">
-            <span class="card-title activator"><i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator"><i class="material-icons right"></i></span>
             <h6 class="truncate">Title: <a href="${latestNews[i].url}" title="${latestNews[i].title}">${latestNews[i].title}</a></h6>
             <p><b>Author</b>: ${author} </p>
             <p><b>News source</b>: ${latestNews[i].source.name} </p>

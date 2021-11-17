@@ -4,13 +4,17 @@
 /*basic reset*/
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;      
+    font-family: 'Playfair Display', serif;
+
 }
 
 html {
     height: 100%;
+   
     background: #4158a5; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #6441A5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    
 }
 
 body {
@@ -224,5 +228,14 @@ body {
     background: #C5C5F1;
     text-decoration: none;
 }
-
-
+.q{
+    display: flex;
+    position: relative;
+    place-items: start;
+}
+.w{
+    line-height: normal;
+}
+.form-check-input{
+    display:inline-flex;
+}

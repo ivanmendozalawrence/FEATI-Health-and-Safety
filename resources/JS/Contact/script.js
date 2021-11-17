@@ -77,5 +77,11 @@ $(".previous").click(function(){
 });
 
 $(".submit").click(function(){
+	window.location.href="../sub/Respose.html";
+	return false;
+})
+
+$(".home").click(function(){
+	window.location.href="../index.html";
 	return false;
 })

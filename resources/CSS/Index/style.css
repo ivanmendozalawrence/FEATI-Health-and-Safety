@@ -96,8 +96,10 @@ main{
 /* -------- CHART -------- */
 .chart{
     width: 100%;
-    height: 62vh;
-    max-height: 62vh;
+    height: 59vh;
+    max-height: 587vh;
+    background-color: lightblue;
+    border-radius: 1rem ;
  
     
 
@@ -210,6 +212,33 @@ main{
 .btn{
     margin-left: 47%;
 }
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; }
+    a:hover, a:focus {
+      text-decoration: none;
+      outline: none; }
+.play_btn a {
+  color: #fff;
+  border: 2px solid #fff;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  font-size: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 /*#newsResults{*/
 /*    align-items: center;*/
 /*    justify-content: center;*/
@@ -218,5 +247,3 @@ main{
 /*.card-columns {*/
 /*    column-count: 4;*/
 /*}*/
-    
-

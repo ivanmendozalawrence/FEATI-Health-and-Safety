@@ -50,7 +50,7 @@ $(document).ready(function () {
 <div class="col mb-4">
         <div class="card h-100">
          
-            <img src="${imageurl}" class="card-img-top" alt="${latestNews[i].title}"">
+            <img src="${imageurl}" class="card-img-top" alt="${latestNews[i].title}">
            
            
           <div class="card-body">
